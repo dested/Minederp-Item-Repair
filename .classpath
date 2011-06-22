@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="jars/1worldedit-4.6-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="jars/mysql-connector-java-bin.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/milkdraw-bukkit"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/milkdraw-craftbukkit"/>
+	<classpathentry kind="lib" path="/milkdraw-bukkit/ebean-2.7.3.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

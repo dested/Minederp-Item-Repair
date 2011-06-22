@@ -1,0 +1,29 @@
+name: Kingdoms
+main: com.minederp.kingdoms.KingdomsPlugin
+version: "${project.version}"
+commands:
+    kingdom:
+        description: Kingdom commands
+        usage: /<command> <arguments...>
+    town:
+        description: Town commands
+        usage: /<command> <arguments...>
+    ctf:
+        description: Capture the flag commands
+        usage: /ctf (setrectangle|startgame|endgame|join) ((red|blue) (setflag|setspawn))  
+    z:
+        description: Zombies commands
+        usage: /z (SetRectangle|StartGame|EndGame|Join) (SetHuman|SetZombie)  
+    zombies:
+        description: Zombies commands
+        usage: /zombies (SetRectangle|StartGame|EndGame|Join) (SetHuman|SetZombie)  
+    m:
+        description: Map based commands
+        usage: /m (SetId {index})  
+    map:
+        description: Map based commands
+        usage: /map (SetId {index})  
+    t:
+        description: Town based commands
+        usage: /t (ShowWalls(False|True)|SetPolygon)
+        

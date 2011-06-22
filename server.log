@@ -1,0 +1,32 @@
+2011-06-19 22:43:36 [INFO] Starting minecraft server version Beta 1.6.6
+2011-06-19 22:43:36 [INFO] Loading properties
+2011-06-19 22:43:36 [WARNING] server.properties does not exist
+2011-06-19 22:43:36 [INFO] Generating new properties file
+2011-06-19 22:43:36 [INFO] Starting Minecraft server on *:25565
+2011-06-19 22:43:36 [WARNING] **** FAILED TO BIND TO PORT!
+2011-06-19 22:43:36 [WARNING] The exception was: java.net.BindException: Address already in use: JVM_Bind
+2011-06-19 22:43:36 [WARNING] Perhaps a server is already running on that port?
+2011-06-20 16:18:49 [INFO] Starting minecraft server version Beta 1.6.6
+2011-06-20 16:18:49 [INFO] Loading properties
+2011-06-20 16:18:49 [INFO] Starting Minecraft server on *:25565
+2011-06-20 16:18:49 [WARNING] **** FAILED TO BIND TO PORT!
+2011-06-20 16:18:49 [WARNING] The exception was: java.net.BindException: Address already in use: JVM_Bind
+2011-06-20 16:18:49 [WARNING] Perhaps a server is already running on that port?
+2011-06-20 16:20:17 [INFO] Starting minecraft server version Beta 1.6.6
+2011-06-20 16:20:17 [INFO] Loading properties
+2011-06-20 16:20:17 [INFO] Starting Minecraft server on *:25565
+2011-06-20 16:20:17 [WARNING] **** FAILED TO BIND TO PORT!
+2011-06-20 16:20:17 [WARNING] The exception was: java.net.BindException: Address already in use: JVM_Bind
+2011-06-20 16:20:17 [WARNING] Perhaps a server is already running on that port?
+2011-06-21 00:22:42 [INFO] Starting minecraft server version Beta 1.6.6
+2011-06-21 00:22:42 [INFO] Loading properties
+2011-06-21 00:22:42 [INFO] Starting Minecraft server on *:25565
+2011-06-21 00:22:42 [WARNING] **** FAILED TO BIND TO PORT!
+2011-06-21 00:22:42 [WARNING] The exception was: java.net.BindException: Address already in use: JVM_Bind
+2011-06-21 00:22:42 [WARNING] Perhaps a server is already running on that port?
+2011-06-21 00:23:06 [INFO] Starting minecraft server version Beta 1.6.6
+2011-06-21 00:23:06 [INFO] Loading properties
+2011-06-21 00:23:06 [INFO] Starting Minecraft server on *:25565
+2011-06-21 00:23:06 [WARNING] **** FAILED TO BIND TO PORT!
+2011-06-21 00:23:06 [WARNING] The exception was: java.net.BindException: Address already in use: JVM_Bind
+2011-06-21 00:23:06 [WARNING] Perhaps a server is already running on that port?

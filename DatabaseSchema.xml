@@ -1,0 +1,22 @@
+<root>
+	<class Name="Kingdom">
+		<field Name="KingdomID" Type="int" Key="Primary" />
+		<field Name="KingdomName" Type="String" />
+		<field Name="KingdomSpawn" Type="String" />
+		<field Name="KingdomHeart" Type="String" />
+	</class>
+	<class Name="Town">
+		<field Name="TownID" Type="int"  Key="Primary" />
+		<field Name="TownName" Type="String" />
+		<field Name="TownSpawn" Type="String" />
+		<field Name="TownHeart" Type="String" />
+		<field Name="KingdomID" Type="int" Key="Foreign" />
+	</class>
+	<class Name="KingdomPlayer">
+		<field Name="KingdomPlayerID" Type="int" Key="Primary" />
+		<field Name="PlayerName" Type="String" />
+		<field Name="PlayerNickName" Type="String" />
+		<field Name="KingdomID" Type="int" Key="Foreign" />
+	</class>
+ 
+</root>
