@@ -1,4 +1,4 @@
-package com.minederp.kingdoms.commands;
+package com.minederp.itemRepair.commands;
 
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;

@@ -23,6 +23,7 @@ import java.io.*;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import org.bukkit.ChatColor;
+import org.bukkit.Material;
 import org.bukkit.block.Block;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
@@ -33,10 +34,10 @@ import org.bukkit.event.Listener;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.util.config.Configuration;
 
-import com.minederp.itemRepair.games.GameLogic; 
-import com.minederp.itemRepair.listeners.ItemRepairBlockListener; 
-import com.minederp.itemRepair.listeners.ItemRepairPlayerListener; 
-import com.minederp.kingdoms.commands.*; 
+import com.minederp.itemRepair.commands.*;
+import com.minederp.itemRepair.games.GameLogic;
+import com.minederp.itemRepair.listeners.ItemRepairBlockListener;
+import com.minederp.itemRepair.listeners.ItemRepairPlayerListener;
 import com.sk89q.bukkit.migration.PermissionsResolverManager;
 import com.sk89q.bukkit.migration.PermissionsResolverServerListener;
 import com.sk89q.minecraft.util.commands.CommandContext;
@@ -257,8 +258,17 @@ public class ItemRepairPlugin extends JavaPlugin {
 	}
 
 	public boolean blockClick(Block clickedBlock, Player player) {
-		// TODO Auto-generated method stub
-		return false;
+
+		if (clickedBlock.getType() == Material.IRON_BLOCK) {
+			if (player.getItemInHand().getDurability() < 20) {
+				player.getItemInHand().setDurability((short) (player.getItemInHand().getDurability() + 1));
+				player.sendMessage("You have increased your durability by one");
+			} else
+				player.sendMessage("Your durability is max");
+
+			return false;
+		}
+		return true;
 	}
 
 }
